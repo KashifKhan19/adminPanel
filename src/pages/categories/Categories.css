@@ -1,0 +1,496 @@
+/* Category List Styles */
+.category-list {
+    padding: 20px;
+}
+
+.category-list h2 {
+    margin-bottom: 20px;
+}
+
+.add-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+.category-name {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.action-icon {
+    margin: 0 5px;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.action-icon:hover {
+    color: #0056b3;
+}
+
+.delete-button {
+    color: #ffffff;
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.view-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.view-link:hover {
+    text-decoration: underline;
+}
+
+/* Edit Category Styles */
+.edit-category {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.edit-category h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.edit-category form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-category label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.edit-category input[type="text"],
+.edit-category input[type="number"],
+.edit-category textarea,
+.edit-category input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.edit-category button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.edit-category button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.existing-images {
+    margin-top: 20px;
+}
+
+.existing-images h3 {
+    margin-bottom: 10px;
+}
+
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-item {
+    position: relative;
+}
+
+.image-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.image-item button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.image-item button:hover {
+    background-color: #c82333;
+}
+
+.edit-category p {
+    text-align: center;
+    color: green;
+}
+
+/* Create Category Styles */
+.create-category {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.create-category h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.create-category form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-category label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.create-category input[type="text"],
+.create-category input[type="number"],
+.create-category textarea,
+.create-category input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.create-category button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.create-category button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.create-category p {
+    text-align: center;
+    color: green;
+}
+
+/* Category Products Styles */
+.category-products {
+    padding: 20px;
+}
+
+.category-details {
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product-card {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h4 {
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    margin: 5px 0;
+}
+
+.product-image {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Categories Card View */
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.category-card {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.category-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.category-name {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.modal-content label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.modal-content button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: rgb(27, 14, 14);
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+}
+
+.category-card {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.category-image, .product-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.category-name {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.action-icon, .view-link {
+    margin: 0 5px;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.action-icon:hover, .view-link:hover {
+    color: #0056b3;
+}
+
+.products-list {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.products-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.products-list th, .products-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+/* Categories Card Styling */
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.category-card {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background-color: #f8f9fa;
+}
+
+.category-image, .product-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.category-name {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.action-icon {
+    margin: 0 5px;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.action-icon:hover {
+    color: #0056b3;
+}
+
+/* Styling for the 'View Products' Button */
+.view-link {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.view-link:hover {
+    background-color: #218838;
+}
+
+/* Products List Styling */
+.products-list {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.products-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.products-list th, .products-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}

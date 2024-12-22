@@ -1,0 +1,92 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .widgets {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .widget {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .widget-green {
+    background-color: #28a745;
+  }
+  
+  .widget-purple {
+    background-color: #6f42c1;
+  }
+  
+  .widget-blue {
+    background-color: #007bff;
+  }
+  
+  .widget-orange {
+    background-color: #fd7e14;
+  }
+  
+  .best-selling {
+    margin-top: 20px;
+  }
+  
+  .best-selling h2 {
+    margin-bottom: 20px;
+  }
+  
+  .best-selling table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .best-selling th,
+  .best-selling td {
+    padding: 12px;
+    border: 1px solid #dee2e6;
+  }
+  
+  .best-selling th {
+    background-color: #f8f9fa;
+  }
+  
+  .best-selling tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .best-selling .product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .best-selling .action-icon {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .best-selling .pagination {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .best-selling .pagination button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .best-selling .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
